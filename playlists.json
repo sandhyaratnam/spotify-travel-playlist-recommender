@@ -1,0 +1,9 @@
+{'message': 'Popular Playlists', 
+'playlists': 
+    {'href': 'https: //api.spotify.com/v1/browse/categories/0JQ5IMCbQBLpJIg2LUSdVM/playlists?offset=0&limit=1', 
+    'items': [{'collaborative': False, 'description': 'The hottest 50. Cover: The Weeknd', 'external_urls': {'spotify': 'https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M'}, 'href': 'https://api.spotify.com/v1/playlists/37i9dQZF1DXcBWIGoYBM5M', 'id': '37i9dQZF1DXcBWIGoYBM5M', 'images': [{'height': None, 'url': 'https://i.scdn.co/image/ab67706f00000002684f3fe992820eb6401f36d6', 'width': None}], 'name': 'Today’s Top Hits', 'owner': {'display_name': 'Spotify', 'external_urls': {'spotify': 'https://open.spotify.com/user/spotify'}, 'href': 'https://api.spotify.com/v1/users/spotify', 'id': 'spotify', 'type': 'user', 'uri': 'spotify:user:spotify'}, 'primary_color': '#FFFFFF', 'public': True, 'snapshot_id': 'ZuO5dAAAAAAbeJic6YjljEen58MQZeEP', 'tracks': {'href': 'https://api.spotify.com/v1/playlists/37i9dQZF1DXcBWIGoYBM5M/tracks', 'total': 50}, 'type': 'playlist', 'uri': 'spotify:playlist:37i9dQZF1DXcBWIGoYBM5M'}], 
+    'limit': 1, 
+    'next': 'https://api.spotify.com/v1/browse/categories/0JQ5IMCbQBLpJIg2LUSdVM/playlists?offset=1&limit=1', 
+    'offset': 0, 
+    'previous': None, 
+    'total': 10}}
