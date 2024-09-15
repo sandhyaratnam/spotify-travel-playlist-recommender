@@ -18,14 +18,13 @@ def get_geolocation():
         response = requests.get('https://ipinfo.io')
         data = response.json()
         country = data['country']
-        print("Country: " + country)
         return country
     except Exception as e:
         print(f"Error fetching location from IP: {e}")
         return None
 
 
-def get_featured_playlists_by_country(country_code):
+def get_top50_playlist_by_country(country_code):
     try:
         query = "Top 50 - " + country_map.get(country_code)
         playlist = sp.search(q=query, limit=1, type='playlist', market=country_code)
@@ -51,5 +50,5 @@ if __name__=="__main__":
         raise ValueError("input must be y/n")
     
     if country:
-        get_featured_playlists_by_country(country)
+        get_top50_playlist_by_country(country)
 
